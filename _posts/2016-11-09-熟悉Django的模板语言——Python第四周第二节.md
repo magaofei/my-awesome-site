@@ -10,7 +10,7 @@ tags:
 
 # 熟悉Django的模板语言
 
-`{% raw % }`
+
 
 #### 新建一个站点app
 
@@ -68,9 +68,11 @@ python3 manage.py runserver
 django模板语言
 
 ```python
+{% raw %}
 {% load static %}  #获取所有static路径
 <link rel="stylesheet" type="text/css" href="{% static 'css/new_blah.css' %}">
 
+{% endraw %}
 ```
 
 #### 设置static
@@ -270,4 +272,3 @@ def index(request):
     </div>
 ```
 
-`{% endraw % }`

@@ -10,27 +10,27 @@ tags:
 
 效果图:
 
-{% asset_img 效果图.png %}
+![]({{ site.url}}/asserts/asset_img 效果图.png )
 
 1. 新建UIView, 放入 ViewController 中 
 
 2. 设置 UIView 的布局上左右都为0, 高度为44
 
-   {% asset_img UIView.png %}
+   ![]({{ site.url}}/asserts/UIView.png)
 
 3. 更新Frame
 
-   {% asset_img 更新 Frame.png %} 
+   ![]({{ site.url}}/asserts/更新 Frame.png)
 
 4. 放入3个 Button 到 UIView 中
 
 5. 设置第一个 Button 的布局, 上下左右都为0
 
-   {% asset_img button1.png %}
+   ![]({{ site.url}}/asserts/button1.png)
 
 6. 设置第二个 Button 的布局, 右和下为0
 
-   {% asset_img button2.png %}
+   ![]({{ site.url}}/asserts/button2.png)
 
 7. 在上一步的基础上, 设置第二个 Button 和第一个 Button 相同宽度和高度, 
 
@@ -38,7 +38,7 @@ tags:
    2. 按住 Shift 键, 选中 Equal Widths 和 Equal Heights
    3. 最后点击 Add Constraints 
 
-   {% asset_img equal.png %}
+   ![]({{ site.url}}/asserts/equal.png)
 
 8. 设置第三个 Button 的布局, 右和下为0 (同第6步)
 
